@@ -1,16 +1,16 @@
 # fis-postprocesser-bdtmpl
 
-ÈÃhtmlÖ§³ÖÍ¨¹ıjsonäÖÈ¾Ä£°å
+è®©htmlæ”¯æŒé€šè¿‡jsonæ¸²æŸ“æ¨¡æ¿
 
-## °²×°
+## å®‰è£…
 
 ```
 npm install -g fis-postprocessor-bdtmpl
 ```
 
-## Ê¹ÓÃ·½·¨
+## ä½¿ç”¨æ–¹æ³•
 
-### ÅäÖÃ
+### é…ç½®
 
 ```json
 fis.match('**.html', {
@@ -18,25 +18,25 @@ fis.match('**.html', {
 });
 ```
 
-### Ê¹ÓÃ
+### ä½¿ç”¨
 
-äÖÈ¾ÒıÈëµÄÄ£°å
+æ¸²æŸ“å¼•å…¥çš„æ¨¡æ¿
 
 ```html
-<!-- TMPL={ "title": "Ç°¶ËÊ¾Àı" } -->
+<!-- TMPL={ "title": "å‰ç«¯ç¤ºä¾‹" } -->
     <link rel="import" href="/components/head/head.html?__inline">
 <!-- /TMPL -->
 ```
 
-Ö±½ÓäÖÈ¾html
+ç›´æ¥æ¸²æŸ“html
 
 ```html
-<!-- TMPL={ "title": "Ç°¶ËÊ¾Àı" } -->
+<!-- TMPL={ "title": "å‰ç«¯ç¤ºä¾‹" } -->
     <div><%= title =></div>
 <!-- /TMPL -->
 ```
 
-Ê¹ÓÃjsonÎÄ¼ş×÷ÎªÊı¾İÔ´
+ä½¿ç”¨jsonæ–‡ä»¶ä½œä¸ºæ•°æ®æº
 
 ```html
 <!-- TMPL=./data.json -->
