@@ -20,6 +20,8 @@ fis.match('**.html', {
 
 ### 使用
 
+模板语法采用[BaiduTemplate](http://baidufe.github.io/BaiduTemplate/)
+
 渲染引入的模板
 
 ```html
