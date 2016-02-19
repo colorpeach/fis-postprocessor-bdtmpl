@@ -5,7 +5,7 @@
 ## 安装
 
 ```
-npm install -g fis-postprocesser-bdtmpl
+npm install -g fis-postprocessor-bdtmpl
 ```
 
 ## 使用方法
