@@ -1,0 +1,18 @@
+{
+  "name": "fis-postprocessor-bdtmpl",
+  "version": "0.1.0",
+  "description": "a postprocessor plugin for fis3 to compile html with baiduTemplate",
+  "main": "index.js",,
+  "keywords": [
+    "fis",
+    "fis3",
+    "postprocessor",
+    "baiduTemplate",
+    "html"
+  ],
+  "author": "colorpeach",
+  "license": "ISC",
+  "dependencies": {
+    "baidutemplate": "^1.0.5-dev"
+  }
+}
