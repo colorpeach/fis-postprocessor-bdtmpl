@@ -1,5 +1,7 @@
 # fis-postprocesser-bdtmpl
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/colorpeach/fis-postprocessor-bdtmpl.svg)](https://greenkeeper.io/)
+
 让html支持通过json渲染模板
 
 ## 安装
